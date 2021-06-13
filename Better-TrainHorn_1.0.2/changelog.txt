@@ -1,0 +1,58 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 14. 12. 2020
+  Changes:
+	- Changed version to 1.1.x
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 02. 11. 2020
+  Added:
+	- Added artillery-wagon as wagon type. Horn now plays when run over by this wagon type.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 08. 09. 2020
+  Added:
+	- Added button to honk horn in both the train, car and tank
+  Changes:
+	- Changed mod version to 1.0.0 given that there is no reason to stay on a 0.x version.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 26. 08. 2020
+  Changes:
+	- Changed version to 1.0.x
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 21. 02. 2020
+  Added:
+	- Added changelog.txt
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 21. 02. 2020
+  Changes:
+	- Changed version to 0.18.x
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 21. 02. 2020
+  Changes:
+	- Changed event type from "on_player_died" to "on_pre_player_died" to support mods that do not have death screens	
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 21. 02. 2020
+  Changes:
+	- Rewrote code to use the play_sound function
+	- Changed car/tank horn from Dixie Duke to la Cucaracha
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 21. 02. 2020
+  Changes:
+	- Changed version to 0.17.x
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 21. 02. 2020
+  Additions:
+	- Added horn sound when being killed by a car/tank
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 21. 02. 2020
+  Changes:
+	- Changed version to 0.16.x

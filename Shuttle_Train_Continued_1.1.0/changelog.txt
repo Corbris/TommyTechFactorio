@@ -1,0 +1,50 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+Date 06.02.2020
+  Changes:
+    - 0.18 Compatability 
+    - Fixed the hibernate bug
+    - Changed Icon style to match new UI
+---------------------------------------------------------------------------------------------------
+Version: 0.17.6
+Date: 16.03.2019
+  Changes:
+    - You can now set the number of stations displayed in the GUI via settings (Min 1, Max 25)
+    - Your last used Shuttle is now persistent between game sessions
+---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+Date: 12.03.2019
+  Bugfixes:
+    - Fixed that a crash occured if you decoupled a shuttle train and then exited it
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+Date: 12.03.2019
+  Changes:
+    - Shuttle call functions now take into account whether you have a GUI filter set or not when choosing a station
+  Features:
+    - New OnExit setting choice "Manual" available to set manual mode without affecting the schedule
+    - Shuttle depot name is now configurable in settings
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 09.03.2019
+  Features:
+    - Now supports depot function (Shuttle Train Depot)
+    - New Setting allows you to set the action performed when you leave a shuttle train (None,Hibernate,Send To Depot)
+    - New Hotkey (CTRL+SHIFT+J) send the last used shuttle train to a depot
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 07.03.2019
+  Bugfixes:
+    - Fixed game crash on exiting trains
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 07.03.2019
+  Features:
+    - New Setting to open the full train schedule GUI instead of the custom GUI when entering a shuttle train
+  Changes:
+    - Shuttle Trains will now go dormant (manual mode,cleared schedule) when you leave the train
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 01.03.2019
+  Bugfixes:
+    - Updated to Factorio Version 0.17

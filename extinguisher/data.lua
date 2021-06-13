@@ -1,0 +1,7 @@
+require("prototypes.categories.ammo-category")
+require("prototypes.entity.extinguisher")
+require("prototypes.item.gun")
+require("prototypes.item.ammo")
+require("prototypes.recipe.recipe")
+require("prototypes.recipe.fluid-recipe")
+require("prototypes.technology.technology")

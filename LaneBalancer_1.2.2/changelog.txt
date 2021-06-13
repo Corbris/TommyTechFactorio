@@ -1,0 +1,236 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 2021.05.02
+  Changes:
+    - Fixed minor issues.
+    - Code refactoring & fine tuning for some UPS gain.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2021.05.01
+  Bugfixes:
+    - Fixed issue when balancing to nearest lane for a perpendicular belt.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2021.05.01
+  Changes:
+    - Update to factorio 1.1.x
+  Bugfixes:
+    - Lane balancers not resuming upon load should be fixed.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 2020.07.21
+  Bugfixes:
+    - Fix crash when setting filter for "unconnected" LaneBalancer (should have valid in/out devices set before configuring filters).
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 2020.06.02
+  Bugfixes:
+    - Fix issue where a LaneBalancer was no longer active after in or out device upgrade or downgrade.
+    - Fix issue where filtered balancing could sometimes not work as intended.
+  Changes:
+    - Events management code optimization.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 2020.06.01
+  Bugfixes:
+    - Fix potential (rare) crash while balancing lanes.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2020.05.23
+  Bugfixes:
+    - Fix regression issue in filtered balancing.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2020.05.23
+  Changes:
+    - Lane Balancers repository structure reworked: processing load required by mod lowered up to 30%.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2020.05.22
+  Info:
+    - Intermediate test version not released to public.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2020.05.22
+  Changes:
+    - Added mod events filtering.
+    - Some tuning of balancing process.
+  Bugfixes:
+    - Fixed issue where invalid or previously removed LaneBalancer would stay in repository and never been removed (migration clean repository).
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2020.05.16
+  Changes:
+    - Some fine code tuning for little more UPS gain.
+    - Stable - hope so as usual :-)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2020.05.15
+  Changes:
+    - Some code reworked: 30% average UPS gain.
+  Bugfixes:
+    - Fixed potential crash while rotating or removing balancer.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020.04.16
+  Changes:
+    - Some code refactoring.
+    - Stable.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.27
+Date: 2020.04.15
+  Changes:
+    - Optimization: removed many unnecessary factorio API calls.
+    - Filter configuration reading is now processed only each 0.5s in place of each tick.
+    - Auto remove of any "ghost" balancer not linked to relevant factorio entity (corrupted save).
+    - Added initialisation phase at startup to insure balancer database consistency.
+  Bugfixes:
+    - Fixed speed issue for fast & express balancers.
+    - Fixed issue in filtered balancing.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.26
+Date: 2020.04.13
+  Changes:
+    - Some fine tuning.
+  Bugfixes:
+    - Latest issues should be fixed.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.25
+Date: 2020.04.12
+  Bugfixes:
+    - Recent balancing change rollback. A function require re-engineering.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.24
+Date: 2020.04.12
+  Changes:
+    - Lowering CPU usage while balancing.
+  Bugfixes:
+    - Fix minor issue in filtered balancing.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.23
+Date: 2020.04.10
+  Changes:
+    - Added support for whitelist/blacklist filtering.
+  Bugfixes:
+    - Fix minor issue in filtered balancing.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.22
+Date: 2020.04.10
+  Changes:
+    - Balancer can be enabled/disabled through logistic network.
+  Bugfixes:
+    - Fix a graphic glitch: items are now removed from input belt at balancer entrance.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.21
+Date: 2020.04.08
+  Changes:
+    - Some refactoring after latests fixes.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.20
+Date: 2020.04.08
+  Changes:
+    - Various other minor fixes.
+  Bugfixes:
+    - Fixed: Balancer were running at half-speed.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.19
+Date: 2020.04.06
+  Bugfixes:
+    - Fix issue in logic network management.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.18
+Date: 2020.04.06
+  Changes:
+    - Balancing process improved.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.17
+Date: 2020.04.06
+  Bugfixes:
+    - Fix issue in input balancing while one output lane is full.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.16
+Date: 2020.04.05
+  Changes:
+    - Some code refactoring to improve balancing efficiency.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.15
+Date: 2020.04.05
+  Changes:
+    - Filtered balancing no longer operate if out belt is not straight in line with balancer.
+    - Not filtered balancer with out belt not in line (90°): both input lanes will be balanced 1 for 1 onto nearest out belt lane.
+  Bugfixes:
+    - Fix potential issue in filtered balancing.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.14
+Date: 2020.04.04
+  Changes:
+    - Filtering and logic management also available for straight out inline "underground-belt".
+  Bugfixes:
+    - Fix potential issue in logic network management.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.13
+Date: 2020.04.03
+  Changes:
+    - New feature: can be managed through Green/Red logic network for enable/disable & set filter.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.12
+Date: 2020.04.03
+  Bugfixes:
+    - Fix issue in filtered lane balancing
+---------------------------------------------------------------------------------------------------
+Version: 0.0.11
+Date: 2020.04.02
+  Changes:
+    - New feature: filter (only for "transport-belt" output device).
+    - Left filter: item to left belt out lane / Right filter: item to right belt out lane.
+    - If only one filter slot used then all other items are routed to not filtered out lane.
+    - If both filters are same then that item type only is to be balanced on both belt out lanes.
+    - Filter mode as white list only - black list and stack size in device settings not managed.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.10
+Date: 2020.04.01
+  Bugfixes:
+    - Fix a potential issue in events management.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 2020.04.01
+  Changes:
+    - Add some more "nil" and "is valid" controls to improve reliability.
+    - Use mainly local vars to improve performance.
+    - Code files reorganize.
+  Bugfixes:
+    - Fix a potential issue while balancing.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 2020.04.01
+  Bugfixes:
+    - Fix "en" localisation strings.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+Date: 2020.03.31
+  Changes:
+    - Balancing code rewrite.
+    - LaneBalancer object refactored with auto migration update for previous versions.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2020.03.30
+  Changes:
+    - Some code optimization to lower CPU usage.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2020.03.30
+  Changes:
+    - Update changelog file format to be compliant with ingame reader.
+    - Some more code refactoring to improve reliability.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 2020.03.29
+  Info:
+    - Mod based on original Lane-Balancer 0.0.3 code from FoxInSox (https://mods.factorio.com/mod/Lane-Balancer).
+    - Support "normal", "fast" and "express" in/out devices: belt / underground belt / splitter (vanilla game).
+  Changes:
+    - Mod updated to game release 0.18.
+    - Code refactoring.
+    - Bug fixing.
+    - Added some more tests to improve reliability.
+    - No further tests have been made nor are planned ATM for faster devices from other mods.

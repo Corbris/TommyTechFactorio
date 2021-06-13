@@ -1,0 +1,174 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+  Changes:
+    - fix crashing upon mining accumulators in certain situations
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+  Changes:
+    - hotfix for third party mod support
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+  Changes:
+    - be careful updating an ongoing game! changed the way the mod balances power requirements
+    - fuel value higher, but generators (like steam engines) produce less power - you need more generators but fuel consumptions will be the same
+    - solar buffed to compensate, also added solar multiplier setting
+    - updated for factorio 1.1.0
+    - added Clockwork support (no longer multiplies capacities from both mods)
+    - Clockwork is now the recommended mod to use for changing the day cycle length
+    - fixed conflict with Space Exploration
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+  Changes:
+    - fix conflict with OSHA Wind Power
+    - fix capacitor accumulator being unlocked if you load an old save with RP
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+  Changes:
+    - fix conflict with Nixie Tubes and Santa's Nixie Tubes
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+  Changes:
+    - update for 0.18
+---------------------------------------------------------------------------------------------------
+Version: 1.0.18
+  Changes:
+    - update Changelog formatting for viewing it ingame, for real this time
+    - fixed liquid fuels did not get their fuel values adjusted (for mods that have burnable liquid fuels)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.17
+  Changes:
+    - fix conflict with Diesel Locomotives mod
+    - update Changelog formatting for viewing it ingame
+---------------------------------------------------------------------------------------------------
+Version: 1.0.16
+  Changes:
+    - fix conflict when using adamo carbon, InfinityMode and/or RealisticReactors
+---------------------------------------------------------------------------------------------------
+Version: 1.0.15
+  Changes:
+    - fix conflict with compilatron roboports added in 0.17.53
+---------------------------------------------------------------------------------------------------
+Version: 1.0.14
+  Changes:
+    - update for emissions stat being renamed to emissions_per_minute internally with 0.17.29
+---------------------------------------------------------------------------------------------------
+Version: 1.0.13
+  Changes:
+    - fix conflict with Realistic Electric Trains
+---------------------------------------------------------------------------------------------------
+Version: 1.0.12
+  Changes:
+    - added requirement for version 0.17.23 for the last fix, since mod version 1.0.11 won't work with any previous factorio versions
+---------------------------------------------------------------------------------------------------
+Version: 1.0.11
+  Changes:
+    - fix for renaming of technology electric-energy-accumulators-1
+---------------------------------------------------------------------------------------------------
+Version: 1.0.10
+  Changes:
+    - updated for 0.17
+    - removed adjusting stack sizes for when playing with bob's mods or yuoki
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+  Changes:
+    - broke the whole mod with the last patch, fixed that. sorry about that
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+  Changes:
+    - fixed conflicts with LTN, and scanning radar
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+  Changes:
+    - fixed conflict with stacking beltboxes for bio industries
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+  Changes:
+    - fixed conflict with science cost tweaker (circular dependance of nuclear power and high tech science pack research after an update)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+  Changes:
+    - fixed conflict with Modular Armor mod
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+  Changes:
+    - added support for Geothermal
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+  Changes:
+    - added compatibility with Pyanodons Coal Processing / Fusion (nerfed turbines, made Fusion technologies more expensive)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+  Changes:
+    - moved settings from config file to ingame mod settings
+    - can now be added to existing games without the need to do anything
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+  Changes:
+    - fix conflict with Realistic Reactors
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+  Changes:
+    - added setting for toggling steam engine cost increase in case marathon or similar mods / settings make the early game too slow (does not affect other item costs like nuclear reactors, turbines etc)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+  Changes:
+    - fixed conflict with Yuoki Industries
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+  Changes:
+    - updated for 0.16
+    - accumulator drain no longer proportional to energy stored due to optimizations in 0.16. by default now half of what used to be max possible drain
+---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+  Changes:
+    - updated for v0.15
+    - nuclear mods temporarily not supported (not updated to 0.15)
+---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+  Changes:
+    - small bugfix and other small changes
+    - fix power of sciencecosttweaker labs
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+  Changes:
+    - cleaned up code, should also be compatible with most mods now
+    - fixed pollution production
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+  Changes:
+    - small bug fix
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+  Changes:
+    - added support for Bob's mods (all solar panels need wafers by default, toggleable in config), Angel's mods and Flow Control
+    - overhauled most of the code
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+  Changes:
+    - decreased Reactors steam turbine cost and updated for Reactors v1.6
+    - decreased steam engine cost
+    - added support for Yuoki
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+  Changes:
+    - accumulator drain proportional to energy stored
+    - reduced wind turbine cost
+    - increased steam engine cost
+    - support for some mods added (Reactors, Nucular, Uranium Power, Bio Industries, Useful Space, Lighted Electric Poles, Concrete Lampposts, Afraid of the Dark, Additional Turrets)
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+  Changes:
+    - raised solar panel production to 5.4kW
+    - raised fuel values to only halved
+    - raised stack size of high capacity accumulators to 100
+    - fixed drain by adding new entity that consumes power
+    - using interface of DayNightExtender for no manual changes needed any more
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+  Changes:
+    - solar panel nerfed to 4.5 kW. slightly cheaper recipe
+    - basic accumulator has much higher capacity / lower power output
+    - new low capacity, high power accumulator
+    - accumulators have drain to simulate self-discharge 
+    - steam power nerfed (power halved, fuel values quartered)
+    - most entities consume less (half) the energy

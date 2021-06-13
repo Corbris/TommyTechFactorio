@@ -1,0 +1,70 @@
+The following sounds were packed into this mod. Some of them have been modified by me (i.e. shortened), but i do not own any of the used sounds. 
+Most of them are licensed via CC-BY-NC-SA (http://creativecommons.org/licenses/by-sa/2.0/en/legalcode), but feel free to contact the creators if you would like to use some of the sounds for a project of your own. To support the creators, please do not distribute the sounds separately from this mod, but use the originals instead. Thank you!
+
+"Alarm 1" 
+Thanks to: TheMSsoundeffects 
+Name: Alarm sound effects - modern alarm 2 
+
+"Alarm 2"
+Thanks to: Noel Johansen-Berg
+Name: Danger Alarm Sound Effect 
+
+"Alarm 3"
+Thanks to: TheMSsoundeffects
+Name: Alarm sound effects - modern alarm 1 
+
+"Alert bells" 
+Thanks to: BerlinAtmospheres
+Name: Alarm Bells Sound Effect 
+
+"Evacuation alert 1"
+Thanks to: All Sounds
+Name: Red alert Sound Effect 
+
+"Evacuation alert 2"
+Thanks to: SoundEffectsFactory
+Name: Panic Alarm #2 Sound Effect
+
+"Factory alert 1"
+Thanks to: radio_illuminati and AR Sound Effects
+Name: Alarm #3 / No Copyright Sound Effect 
+
+"Factory alert 2"
+Thanks to: AR Sound Effects
+Name: Alarm #7 / No Copyright Sound Effect 
+
+"Factory alert 3"
+Thanks to: Hoerspielwerkstatt_HEF and AR Sound Effects
+Name: Alarm #10 / No Copyright Sound Effect 
+
+"Gate warning"
+Thanks to: BerlinAtmospheres
+Name: Warning Alarm Signal - SOUND EFFECT 
+
+"Intruder alert 1"
+Thanks to: Mark K.
+Name: Alarm Used Johnson County jail In Indiana
+
+"Intruder alert 2"
+Thanks to: allcastcoUK
+Name: Submarine Dive Alarm Ringtone
+
+"Nuclear alert"
+Thanks to: Cutpurse3
+Name: Nuke Alert Sound
+
+"Red alert"
+Thanks to: n Beats Sound Effects
+Name: Sound Effect for Danger Alarm
+
+"Siren 1 (1:00 min)"
+Thanks to: Jaxo Jenson
+Name: Siren Alert Alarm sound in the WAR
+
+"Siren 2 (0:15 min, ongoing)"
+Thanks to: Nick Silcox
+Name: Chrysler Air Raid Siren
+
+"Railroad crossing bells"
+Thanks to: Needed Sound Effects
+Name: Railroad Crossing Bell Sound Effect 
